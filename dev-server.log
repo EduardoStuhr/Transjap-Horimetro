@@ -1,0 +1,105 @@
+
+> dev
+> vite dev --host 127.0.0.1
+
+
+  [32m[1mVITE[22m v7.3.5[39m  [2mready in [0m[1m2899[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m8080[22m/[39m
+[vite] connected.
+[2m14:39:01[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/_authenticated/route.tsx[22m
+[vite] program reload
+[2m14:39:25[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/_authenticated/index.tsx[22m
+[2m14:39:51[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/_authenticated/index.tsx[22m
+[2m14:40:06[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/_authenticated/index.tsx[22m
+File C:\Users\fabio\Downloads\Field Meter\src\routeTree.gen.ts was modified by another process during processing.
+[2m14:54:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/routeTree.gen.ts[22m
+[2m14:54:40[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routeTree.gen.ts[22m
+[vite] program reload
+[2m14:55:11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/_authenticated/index.tsx[22m
+[2m14:55:11[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/_authenticated/index.tsx[22m
+File C:\Users\fabio\Downloads\Field Meter\src\routeTree.gen.ts was modified by another process during processing.
+[2m14:55:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/routeTree.gen.ts[22m
+[2m14:55:29[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routeTree.gen.ts[22m
+[2m14:56:38[22m [36m[1m[vite][22m[39m changed tsconfig file detected: C:/Users/fabio/Downloads/Field Meter/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[vite] program reload
+[2m14:57:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid-shell/index.html[22m
+[2m14:57:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/app/src/main/assets/public/index.html[22m
+[2m14:59:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/app/src/main/assets/public/index.html[22m
+[2m14:59:31[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/app/src/main/assets/public/index.html[22m
+[2m15:02:32[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/_authenticated/capture.tsx[22m
+[vite] program reload
+[2m15:15:08[22m [36m[1m[vite][22m[39m [32m.env changed, restarting server...[39m
+[2m15:15:11[22m [36m[1m[vite][22m[39m server restarted.
+[vite] connected.
+[2m15:17:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/app/src/main/assets/public/index.html[22m
+[2m15:18:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/app/build/intermediates/assets/debug/mergeDebugAssets/public/index.html[22m
+[2m15:19:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/build/reports/problems/problems-report.html[22m
+[2m15:22:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/app/src/main/assets/public/index.html[22m
+[2m15:24:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/app/src/main/assets/public/index.html[22m
+[2m15:25:49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/app/src/main/assets/public/index.html[22m
+[2m15:26:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ new dependencies optimized: [33m@tanstack/router-core/isServer, h3-v2, @tanstack/router-core/ssr/client, @tanstack/router-core/ssr/server, @tanstack/router-core, @tanstack/history, seroval[32m[39m
+[2m15:26:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m15:28:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/_authenticated/capture.tsx, /src/routes/_authenticated/capture.tsx?tsr-split=component[22m
+[2m15:28:13[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/_authenticated/capture.tsx[22m
+[vite] program reload
+[2m15:28:52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/_authenticated/capture.tsx, /src/routes/_authenticated/capture.tsx?tsr-split=component[22m
+[2m15:28:52[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/_authenticated/capture.tsx[22m
+[2m15:29:46[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/app/src/main/assets/public/index.html[22m
+[2m15:34:49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/_authenticated/capture.tsx, /src/routes/_authenticated/capture.tsx?tsr-split=component[22m
+[2m15:34:49[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/_authenticated/capture.tsx[22m
+[vite] program reload
+[2m15:36:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/_authenticated/capture.tsx, /src/routes/_authenticated/capture.tsx?tsr-split=component[22m
+[2m15:36:03[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/_authenticated/capture.tsx[22m
+[2m15:36:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/_authenticated/capture.tsx, /src/routes/_authenticated/capture.tsx?tsr-split=component[22m
+[2m15:36:22[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/_authenticated/capture.tsx[22m
+[2m15:37:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ new dependencies optimized: [33m@zxing/library[32m[39m
+[2m15:37:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m15:37:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/_authenticated/route.tsx?tsr-split=component, /src/routes/_authenticated/index.tsx?tsr-split=component, /src/routes/_authenticated/capture.tsx?tsr-split=component[22m
+[2m15:37:27[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mhmr update [39m[2m/src/lib/horimeter.functions.ts?tss-serverfn-split[22m
+[vite] hot updated: /src/lib/horimeter.functions.ts?tss-serverfn-split
+[2m15:39:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/app/src/main/assets/public/index.html[22m
+[2m15:40:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ new dependencies optimized: [33m@zxing/browser[32m[39m
+[2m15:40:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m15:42:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct[22m
+[2m15:42:08[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/public-readings.server.ts[22m
+[vite] program reload
+[2m15:42:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/_authenticated/route.tsx?tsr-split=component, /src/routes/_authenticated/index.tsx?tsr-split=component, /src/routes/_authenticated/capture.tsx?tsr-split=component[22m
+[2m15:42:08[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mhmr update [39m[2m/src/lib/horimeter.functions.ts?tss-serverfn-split[22m
+[vite] hot updated: /src/lib/horimeter.functions.ts?tss-serverfn-split
+[2m15:42:31[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/_authenticated/capture.tsx, /src/routes/_authenticated/capture.tsx?tsr-split=component[22m
+[2m15:42:31[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/_authenticated/capture.tsx[22m
+[2m15:42:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/_authenticated/capture.tsx, /src/routes/_authenticated/capture.tsx?tsr-split=component[22m
+[2m15:42:47[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/_authenticated/capture.tsx[22m
+[2m15:42:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/_authenticated/route.tsx?tsr-split=component, /src/routes/_authenticated/index.tsx?tsr-split=component, /src/routes/_authenticated/capture.tsx?tsr-split=component[22m
+[2m15:42:47[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mhmr update [39m[2m/src/lib/horimeter.functions.ts?tss-serverfn-split[22m
+[2m15:42:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct[22m
+[2m15:42:47[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/public-readings.server.ts[22m
+[vite] hot updated: /src/lib/horimeter.functions.ts?tss-serverfn-split
+[vite] program reload
+[2m15:47:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/app/src/main/assets/public/index.html[22m
+[2m15:54:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/_authenticated/route.tsx?tsr-split=component, /src/routes/_authenticated/index.tsx?tsr-split=component, /src/routes/_authenticated/capture.tsx?tsr-split=component, /src/routes/_authenticated/history.tsx?tsr-split=component[22m
+[2m15:54:12[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mhmr update [39m[2m/src/lib/horimeter.functions.ts?tss-serverfn-split[22m
+[vite] hot updated: /src/lib/horimeter.functions.ts?tss-serverfn-split
+[2m15:54:28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/_authenticated/capture.tsx, /src/routes/_authenticated/capture.tsx?tsr-split=component[22m
+[2m15:54:28[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/_authenticated/capture.tsx[22m
+[vite] program reload
+[2m15:56:49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/app/src/main/assets/public/index.html[22m
+[2m16:00:31[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/_authenticated/capture.tsx, /src/routes/_authenticated/capture.tsx?tsr-split=component[22m
+[2m16:00:31[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/_authenticated/capture.tsx[22m
+[vite] program reload
+[2m16:01:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/app/src/main/assets/public/index.html[22m
+[2m16:02:54[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/app/build/intermediates/assets/debug/mergeDebugAssets/public/index.html[22m
+[2m16:02:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/app/build/intermediates/assets/debug/mergeDebugAssets/public/index.html[22m
+[2m16:03:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/build/reports/problems/problems-report.html[22m
+[2m16:04:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/app/src/main/assets/public/index.html[22m
+[2m16:04:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/build/reports/problems/problems-report.html[22m
+[2m16:05:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ new dependencies optimized: [33m@capacitor/core, @pantrist/capacitor-plugin-ml-kit-text-recognition[32m[39m
+[2m16:05:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m16:08:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/_authenticated/capture.tsx, /src/routes/_authenticated/capture.tsx?tsr-split=component[22m
+[2m16:08:53[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/_authenticated/capture.tsx[22m
+[vite] program reload
+[2m16:09:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/_authenticated/capture.tsx, /src/routes/_authenticated/capture.tsx?tsr-split=component[22m
+[2m16:09:07[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/_authenticated/capture.tsx[22m
+[2m16:10:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/app/src/main/assets/public/index.html[22m
+[2m16:10:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mandroid/build/reports/problems/problems-report.html[22m

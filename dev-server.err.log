@@ -1,0 +1,420 @@
+[2m15:24:41[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:35:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:24:41[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:55:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:24:41[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:71:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:24:41[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:101:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:24:41[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:147:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:24:41[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:246:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:24:41[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:415:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+TanStack Start server functions are not protected by the CSRF middleware.
+
+Server functions are same-origin RPC endpoints and should be protected from cross-site requests.
+
+Add the CSRF middleware in src/start.ts:
+
+  const csrfMiddleware = createCsrfMiddleware({
+    filter: (ctx) => ctx.handlerType === 'serverFn',
+  })
+
+  export const startInstance = createStart(() => ({
+    requestMiddleware: [csrfMiddleware],
+  }))
+
+If you intentionally handle CSRF another way, disable this warning:
+
+  tanstackStart({
+    serverFns: {
+      disableCsrfMiddlewareWarning: true,
+    },
+  })
+[2m15:24:43[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:35:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:24:43[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:55:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:24:43[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:71:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:24:43[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:101:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:24:43[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:147:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:24:43[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:246:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:24:43[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:415:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:26:17[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:35:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:26:17[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:55:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:26:17[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:71:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:26:17[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:101:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:26:17[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:147:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:26:17[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:246:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:26:17[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:415:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+TanStack Start server functions are not protected by the CSRF middleware.
+
+Server functions are same-origin RPC endpoints and should be protected from cross-site requests.
+
+Add the CSRF middleware in src/start.ts:
+
+  const csrfMiddleware = createCsrfMiddleware({
+    filter: (ctx) => ctx.handlerType === 'serverFn',
+  })
+
+  export const startInstance = createStart(() => ({
+    requestMiddleware: [csrfMiddleware],
+  }))
+
+If you intentionally handle CSRF another way, disable this warning:
+
+  tanstackStart({
+    serverFns: {
+      disableCsrfMiddlewareWarning: true,
+    },
+  })
+[2m15:37:10[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:35:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:37:10[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:55:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:37:10[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:71:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:37:10[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:101:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:37:10[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:147:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:37:10[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:246:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:37:10[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:415:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+TanStack Start server functions are not protected by the CSRF middleware.
+
+Server functions are same-origin RPC endpoints and should be protected from cross-site requests.
+
+Add the CSRF middleware in src/start.ts:
+
+  const csrfMiddleware = createCsrfMiddleware({
+    filter: (ctx) => ctx.handlerType === 'serverFn',
+  })
+
+  export const startInstance = createStart(() => ({
+    requestMiddleware: [csrfMiddleware],
+  }))
+
+If you intentionally handle CSRF another way, disable this warning:
+
+  tanstackStart({
+    serverFns: {
+      disableCsrfMiddlewareWarning: true,
+    },
+  })
+[2m15:37:27[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:35:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:37:27[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:58:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:37:27[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:77:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:37:27[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:107:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:37:27[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:153:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:37:27[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:252:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:37:27[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:421:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:37:28[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:35:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:37:28[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:58:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:37:28[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:77:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:37:28[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:107:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:37:28[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:153:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:37:28[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:252:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:37:28[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:421:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:40:22[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:35:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:40:22[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:58:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:40:22[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:77:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:40:22[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:107:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:40:22[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:153:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:40:22[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:252:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:40:22[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:421:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:42:08[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:53:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:42:08[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:76:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:42:08[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:95:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:42:08[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:125:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:42:08[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:171:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:42:08[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:270:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:42:08[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:439:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:42:47[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:56:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:42:47[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:79:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:42:47[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:96:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:42:47[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:124:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:42:47[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:170:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:42:47[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:269:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:42:47[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:437:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:43:29[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:56:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:43:29[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:79:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:43:29[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:96:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:43:29[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:124:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:43:29[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:170:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:43:29[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:269:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:43:29[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:437:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+TanStack Start server functions are not protected by the CSRF middleware.
+
+Server functions are same-origin RPC endpoints and should be protected from cross-site requests.
+
+Add the CSRF middleware in src/start.ts:
+
+  const csrfMiddleware = createCsrfMiddleware({
+    filter: (ctx) => ctx.handlerType === 'serverFn',
+  })
+
+  export const startInstance = createStart(() => ({
+    requestMiddleware: [csrfMiddleware],
+  }))
+
+If you intentionally handle CSRF another way, disable this warning:
+
+  tanstackStart({
+    serverFns: {
+      disableCsrfMiddlewareWarning: true,
+    },
+  })
+[2m15:54:12[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:57:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:54:12[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:79:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:54:12[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:97:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:54:12[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:125:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:54:12[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:173:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:54:12[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:278:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:54:12[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split:446:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts?tss-serverfn-split[39m
+[2m15:55:38[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:57:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:55:38[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:79:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:55:38[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:97:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:55:38[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:125:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:55:38[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:173:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:55:38[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:278:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m15:55:38[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:446:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+TanStack Start server functions are not protected by the CSRF middleware.
+
+Server functions are same-origin RPC endpoints and should be protected from cross-site requests.
+
+Add the CSRF middleware in src/start.ts:
+
+  const csrfMiddleware = createCsrfMiddleware({
+    filter: (ctx) => ctx.handlerType === 'serverFn',
+  })
+
+  export const startInstance = createStart(() => ({
+    requestMiddleware: [csrfMiddleware],
+  }))
+
+If you intentionally handle CSRF another way, disable this warning:
+
+  tanstackStart({
+    serverFns: {
+      disableCsrfMiddlewareWarning: true,
+    },
+  })
+TanStack Start server functions are not protected by the CSRF middleware.
+
+Server functions are same-origin RPC endpoints and should be protected from cross-site requests.
+
+Add the CSRF middleware in src/start.ts:
+
+  const csrfMiddleware = createCsrfMiddleware({
+    filter: (ctx) => ctx.handlerType === 'serverFn',
+  })
+
+  export const startInstance = createStart(() => ({
+    requestMiddleware: [csrfMiddleware],
+  }))
+
+If you intentionally handle CSRF another way, disable this warning:
+
+  tanstackStart({
+    serverFns: {
+      disableCsrfMiddlewareWarning: true,
+    },
+  })
+[2m16:05:08[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:57:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m16:05:08[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:79:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m16:05:08[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:97:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m16:05:08[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:125:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m16:05:08[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:173:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m16:05:08[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:278:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+[2m16:05:08[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: C:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts:446:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mC:/Users/fabio/Downloads/Field Meter/src/lib/horimeter.functions.ts[39m
+TanStack Start server functions are not protected by the CSRF middleware.
+
+Server functions are same-origin RPC endpoints and should be protected from cross-site requests.
+
+Add the CSRF middleware in src/start.ts:
+
+  const csrfMiddleware = createCsrfMiddleware({
+    filter: (ctx) => ctx.handlerType === 'serverFn',
+  })
+
+  export const startInstance = createStart(() => ({
+    requestMiddleware: [csrfMiddleware],
+  }))
+
+If you intentionally handle CSRF another way, disable this warning:
+
+  tanstackStart({
+    serverFns: {
+      disableCsrfMiddlewareWarning: true,
+    },
+  })
